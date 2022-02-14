@@ -5,3 +5,6 @@ __pycache__
 .ttvpack
 mastDownload
 maxsector.py
+build
+dist
+
