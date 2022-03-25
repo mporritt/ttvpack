@@ -8,3 +8,4 @@ maxsector.py
 build
 dist
 pyproject.toml
+*.egg-info

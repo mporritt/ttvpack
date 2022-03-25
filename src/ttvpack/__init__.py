@@ -1,3 +1,6 @@
+from .retrieval import *
+from .fitting import *
+from .TimingModel import *
 
 __description__ = "Easy data retrieval and TTV calculations for multi-telescope observations."
 __license__ = "MIT"

@@ -6,6 +6,8 @@ import itertools
 from astropy.timeseries import BoxLeastSquares
 
 
+__all__ = ["TimingModel"]
+
 
 class TimingModel(dict):
     """ Stores and presents the optimised ttv model.

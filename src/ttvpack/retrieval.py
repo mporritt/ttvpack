@@ -1,6 +1,7 @@
 # ===WIP===
 # Functions to search and retrieve light curves.
 
+download_dir = "./.ttvpack/data/"
 
 import lightkurve as lk
 import numpy as np
@@ -13,7 +14,7 @@ from astropy.coordinates import SkyCoord
 from tess_stars2px import tess_stars2px_function_entry
 
 
-download_dir = "./.ttvpack/data/"
+__all__ = ["search_target", "get_target"]
 
 
 def search_target(tic=None, epic=None, coords=None):

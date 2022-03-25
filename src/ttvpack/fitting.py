@@ -9,12 +9,11 @@ import pymc3_ext as pmx
 from astropy.timeseries import BoxLeastSquares
 from astropy.time import Time
 
-from retrieval import get_target
-from TimingModel import TimingModel
+from .retrieval import get_target
+from .TimingModel import TimingModel
 
-###
-import matplotlib.pyplot as plt
-###
+
+__all__ = ["fit_target_tts", "fit_transit_times"]
 
 
 def fit_target_tts(lightcurves, **kwargs):  ### MAIN FUNCTION THAT YOU RUN AND IT GIVES YOU TTVS
